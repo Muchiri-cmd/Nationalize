@@ -5,24 +5,34 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Nationalize</title>
   </head>
   <body>
     <div class="container">
       <h1>Nationalize</h1>
       <p>Predict the Ethnicity of a Name</p>
-
-      <div class="search-container">
+      <form class="search-container">
         <input
           type="text"
           id="name-input"
-          placeholder="Enter a name"
+          placeholder="Enter a name and click search"
           aria-label="Name input"
+          required
         />
         <button id="search-button" aria-label="Search button">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
+      </form>
+      <div class="results-div" id="results">
+        <span class="results-para" id="results-para"> </span>
+        <ul class="results-list" id="results-list"></ul>
       </div>
     </div>
     <script type="module" src="./main.js"></script>
