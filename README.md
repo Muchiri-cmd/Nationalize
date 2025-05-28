@@ -12,10 +12,8 @@ Predict the likely nationality or ethnicity of a given name using the [Nationali
 
 ![Screenshot](public/demo.png)
 
-## Getting Started
 
 ### Prerequisites
-
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
 
 ### Installation
