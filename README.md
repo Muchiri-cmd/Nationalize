@@ -6,8 +6,6 @@ Predict the likely nationality or ethnicity of a given name using the [Nationali
 
 - Simple, modern UI
 - Enter a name and get probable countries of origin with probabilities
-- Responsive design
-- Uses [Vite](https://vitejs.dev/) for fast development and build
 - Clean, readable code with Prettier formatting
 
 ## Demo
