@@ -24,7 +24,7 @@ Predict the likely nationality or ethnicity of a given name using the [Nationali
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Muchiri-cmd/Nationalize/edit/main/README.md
+   git clone https://github.com/Muchiri-cmd/Nationalize/
    cd Nationalize
    ```
 2. Install dependencies:
